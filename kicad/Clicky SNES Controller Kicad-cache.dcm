@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4021_ABXY
+D 8-bit Static Shift Register Asynchonous Parallel or Serial Input/Serial Output
+K CMOS parallel-in serial-out
+$ENDCMP
+#
+$CMP 4021_DPAD
+D 8-bit Static Shift Register Asynchonous Parallel or Serial Input/Serial Output
+K CMOS parallel-in serial-out
+$ENDCMP
+#
+#End Doc Library
