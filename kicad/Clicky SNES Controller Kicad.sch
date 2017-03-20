@@ -904,8 +904,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 1150 1800 1200
 Wire Wire Line
-	1400 1150 1400 1450
-Wire Wire Line
 	4700 2350 5200 2350
 Wire Wire Line
 	5000 2450 5200 2450
@@ -1136,4 +1134,17 @@ Wire Wire Line
 	5850 1150 5400 1150
 Wire Wire Line
 	5400 1150 5400 1100
+Wire Wire Line
+	1400 1150 1400 1350
+Wire Wire Line
+	1400 1350 1100 1350
+Connection ~ 1100 1350
+Text Label 4750 4950 1    60   ~ 0
+VDD_ABXY
+Text Label 4350 4950 1    60   ~ 0
+VSS_ABXY
+Text Label 4100 4950 1    60   ~ 0
+VDD_DPAD
+Text Label 3700 4950 1    60   ~ 0
+VSS_DPAD
 $EndSCHEMATC
