@@ -44,10 +44,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X05 P1
+L CONN_01X05 CN1
 U 1 1 58A907FB
 P 1600 950
-F 0 "P1" H 1600 1250 50  0000 C CNN
+F 0 "CN1" H 1600 1250 50  0000 C CNN
 F 1 "CN1" V 1700 950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 1600 950 50  0001 C CNN
 F 3 "" H 1600 950 50  0000 C CNN
@@ -78,17 +78,6 @@ F 1 "47k" V 1250 1650 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 1180 1650 50  0001 C CNN
 F 3 "" H 1250 1650 50  0000 C CNN
 	1    1250 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L R R6
-U 1 1 58A917AE
-P 4850 2750
-F 0 "R6" V 4900 2550 50  0000 C CNN
-F 1 "47k" V 4850 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4780 2750 50  0001 C CNN
-F 3 "" H 4850 2750 50  0000 C CNN
-	1    4850 2750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -896,7 +885,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2850 5200 2850
 Wire Wire Line
-	5000 2750 5200 2750
+	4700 2750 5200 2750
 Wire Wire Line
 	4700 2650 5200 2650
 Wire Wire Line
@@ -923,7 +912,7 @@ Connection ~ 1800 6550
 Connection ~ 1800 6000
 Connection ~ 5100 6550
 Wire Wire Line
-	5100 6000 5100 6850
+	5100 6850 5100 6000
 Wire Wire Line
 	6350 6250 6350 7200
 Wire Wire Line
@@ -933,7 +922,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 6150 5400 6150
 Wire Wire Line
-	5400 6150 5400 7100
+	5400 7100 5400 6150
 Wire Wire Line
 	2400 6000 2750 6000
 Wire Wire Line
@@ -959,12 +948,12 @@ Wire Wire Line
 Wire Wire Line
 	5050 6400 4650 6400
 Wire Wire Line
-	4650 6400 4650 7050
+	4650 7050 4650 6400
 Wire Wire Line
 	1750 7100 1750 6250
 Connection ~ 3600 7050
 Wire Wire Line
-	4650 7050 3050 7050
+	3050 7050 4650 7050
 Wire Wire Line
 	3600 7050 3600 7250
 Connection ~ 3700 7100
@@ -999,13 +988,13 @@ Wire Wire Line
 Wire Wire Line
 	6350 7200 3900 7200
 Wire Wire Line
-	5100 6850 1800 6850
+	1800 6850 5100 6850
 Wire Wire Line
 	2750 6900 3900 6900
 Wire Wire Line
 	2400 6950 3800 6950
 Wire Wire Line
-	5400 7100 1750 7100
+	1750 7100 5400 7100
 Text Notes 3500 6800 0    60   ~ 0
 Main Board
 Wire Wire Line
