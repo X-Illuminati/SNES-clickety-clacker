@@ -34,12 +34,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Tactile SNES Controller - OSHPark Edition"
+Date "2017-03-26"
+Rev "3"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "An SNES controller with tactile switches."
+Comment2 "Design optimized for OSHPark's 2-layer prototyping service."
 Comment3 ""
 Comment4 ""
 $EndDescr
