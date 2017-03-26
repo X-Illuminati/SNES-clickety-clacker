@@ -426,7 +426,7 @@ U 1 1 58AC1D11
 P 1750 5350
 F 0 "P2" H 1750 5450 50  0000 C CNN
 F 1 "VSS_Trigger" V 1850 5350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1750 5350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1750 5350 50  0001 C CNN
 F 3 "" H 1750 5350 50  0000 C CNN
 	1    1750 5350
 	0    -1   -1   0   
@@ -437,7 +437,7 @@ U 1 1 58AC1D17
 P 2450 5350
 F 0 "P3" H 2450 5450 50  0000 C CNN
 F 1 "TR_TL_OUT" V 2550 5350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 2450 5350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2450 5350 50  0001 C CNN
 F 3 "" H 2450 5350 50  0000 C CNN
 	1    2450 5350
 	0    -1   -1   0   
@@ -450,7 +450,7 @@ U 1 1 58AC1D3C
 P 3600 5700
 F 0 "P13" H 3600 5850 50  0000 C CNN
 F 1 "TR_IN" V 3700 5700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 3600 5700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 3600 5700 50  0001 C CNN
 F 3 "" H 3600 5700 50  0000 C CNN
 	1    3600 5700
 	0    -1   -1   0   
@@ -461,7 +461,7 @@ U 1 1 58AC1D42
 P 3300 5700
 F 0 "P11" H 3300 5850 50  0000 C CNN
 F 1 "TL_IN" V 3400 5700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 3300 5700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 3300 5700 50  0001 C CNN
 F 3 "" H 3300 5700 50  0000 C CNN
 	1    3300 5700
 	0    -1   -1   0   
