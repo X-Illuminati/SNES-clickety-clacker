@@ -2,7 +2,7 @@
 
   (general
     (links 101)
-    (no_connects 25)
+    (no_connects 19)
     (area 12.661899 12.915899 54.673501 57.797701)
     (thickness 1.6)
     (drawings 194)
@@ -29,7 +29,7 @@
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
-    (37 F.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -40,8 +40,8 @@
     (45 Margin user)
     (46 B.CrtYd user hide)
     (47 F.CrtYd user hide)
-    (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (48 B.Fab user)
+    (49 F.Fab user)
   )
 
   (setup
