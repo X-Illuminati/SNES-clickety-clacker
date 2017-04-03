@@ -28,17 +28,17 @@ The softlinks in this directory will be broken until you retreive these files
 from an authorized distributor and place them in the `DO_NOT_DISTRIBUTE`
 directory.
 Here are some potentially useful hyperlinks:
-- `[Sci.Electronics-FAQ-SNES Protocols.html](http://repairfaq.org/REPAIR/F_SNES.html)`
+- [`Sci.Electronics-FAQ-SNES Protocols.html`](http://repairfaq.org/REPAIR/F_SNES.html)
   Copywrite © Jim Christy
-- `[cd4021b.pdf](http://www.ti.com/lit/ds/symlink/cd4021b.pdf)`
+- [`cd4021b.pdf`](http://www.ti.com/lit/ds/symlink/cd4021b.pdf)
   Copywrite © 2003 Texas Instruments Incorporated
-- `[mc14021bdg.pdf](http://www.onsemi.com/pub/Collateral/MC14014B-D.PDF)`
+- [`mc14021bdg.pdf`](http://www.onsemi.com/pub/Collateral/MC14014B-D.PDF)
   Copywrite © Semiconductor Components Industries, LLC, 2014
-- `[ckswitches-ksc-series.pdf](http://www.ckswitches.com/media/1459/ksc.pdf)`
+- [`ckswitches-ksc-series.pdf`](http://www.ckswitches.com/media/1459/ksc.pdf)
   Copywrite © C&K Components, Inc
-- `[ckswitches-KSC201GLFS.stp](http://comnet.louisverne.net:8050/webServiceWakefly/rest/GetProductDrawingByProductNumber/KSC201GLFS/STP)`
+- [`ckswitches-KSC201GLFS.stp`](http://comnet.louisverne.net:8050/webServiceWakefly/rest/GetProductDrawingByProductNumber/KSC201GLFS/STP)
   Copywrite © C&K Components, Inc
-- `[ckswitches-KSC621GLFS.stp](http://comnet.louisverne.net:8050/webServiceWakefly/rest/GetProductDrawingByProductNumber/KSC621GLFS/STP)`
+- [`ckswitches-KSC621GLFS.stp`](http://comnet.louisverne.net:8050/webServiceWakefly/rest/GetProductDrawingByProductNumber/KSC621GLFS/STP)
   Copywrite © C&K Components, Inc
-- `[ckswitches-KSC701GLFS.stp](http://comnet.louisverne.net:8050/webServiceWakefly/rest/GetProductDrawingByProductNumber/KSC701GLFS/STP)`
+- [`ckswitches-KSC701GLFS.stp`](http://comnet.louisverne.net:8050/webServiceWakefly/rest/GetProductDrawingByProductNumber/KSC701GLFS/STP)
   Copywrite © C&K Components, Inc
