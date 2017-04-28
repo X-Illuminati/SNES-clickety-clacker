@@ -5,8 +5,10 @@
   Original Controller PCB trace (hand-drawn)
 - `20170204-SNES Controller Schematic.jpg`
   Original Controller Schematic (hand-drawn)
-- `SNES_controller.png`
-  Scan of original controller PCB
+- `SNES_controller-SR8.png`
+  Scan of original controller PCB version A with two 8-bit shift registers
+- `SNES_controller-SR16.png`
+  Scan of original controller PCB version B with one 16-bit shift register
 - `SNES_controller_LR.png`
   Scan of original controller trigger button PCB
 - `cd4021b.pdf`
