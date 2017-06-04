@@ -49,7 +49,7 @@ U 1 1 58A907FB
 P 1600 950
 F 0 "CN1" H 1600 1250 50  0000 C CNN
 F 1 "CN1" V 1700 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 1600 950 50  0001 C CNN
+F 2 "Extra_Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm_Sinister" H 1600 950 50  0001 C CNN
 F 3 "" H 1600 950 50  0000 C CNN
 	1    1600 950 
 	0    -1   -1   0   
@@ -434,30 +434,19 @@ $EndComp
 Text Notes 4800 5600 0    60   ~ 0
 Duplicate of Left Trigger
 $Comp
-L CONN_01X02 P13
-U 1 1 58AC1D3C
-P 3600 5700
-F 0 "P13" H 3600 5850 50  0000 C CNN
-F 1 "TR_IN" V 3700 5700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 3600 5700 50  0001 C CNN
-F 3 "" H 3600 5700 50  0000 C CNN
-	1    3600 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_01X02 P11
+L CONN_01X02 P15
 U 1 1 58AC1D42
-P 3300 5700
-F 0 "P11" H 3300 5850 50  0000 C CNN
-F 1 "TL_IN" V 3400 5700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 3300 5700 50  0001 C CNN
-F 3 "" H 3300 5700 50  0000 C CNN
-	1    3300 5700
+P 3450 5700
+F 0 "P15" H 3450 5850 50  0000 C CNN
+F 1 "TR_TL_IN" V 3550 5700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3450 5700 50  0001 C CNN
+F 3 "" H 3450 5700 50  0000 C CNN
+	1    3450 5700
 	0    -1   -1   0   
 $EndComp
-Text Label 3650 5900 3    60   ~ 0
+Text Label 4200 5900 3    60   ~ 0
 TR
-Text Label 3350 5900 3    60   ~ 0
+Text Label 3600 7250 1    60   ~ 0
 TL
 Text Label 2400 6000 0    60   ~ 0
 Up_switch
@@ -513,7 +502,7 @@ TR_TL_switch
 Text Label 1750 5550 2    60   ~ 0
 VSS_Trigger
 Text Notes 1050 4850 0    60   ~ 0
-Wiring Harnesses --\n1. SNES Controller <-> CN1\n2. DPAD_IN (DPAD Board) <-> DPAD_IN (Main Board)\n3. DPAD_IN (ABXY Board) <-> ABXY_IN (Main Board)\n3. TR_IN <-> Trigger Board\n   (1) TR <- TR_TL_switch\n   (2) GND -> VSS_Trigger\n4. TL_IN <-> Trigger Board\n   (1) TL <- TR_TL_switch\n   (2) GND -> VSS_Trigger\n\n(Unless otherwise noted, pins are connected 1-to-1.)
+Wiring Harnesses --\n1. SNES Controller <-> CN1\n2. DPAD_IN (DPAD Board) <-> DPAD_IN (Main Board)\n3. DPAD_IN (ABXY Board) <-> ABXY_IN (Main Board)\n3. TR_TL_IN <-> Trigger Board\n   (1) GND -> VSS_Trigger\n   (2) TR_TL <- TR_TL_switch\n\n(Unless otherwise noted, pins are connected 1-to-1.)
 $Comp
 L 4021 U1
 U 1 1 58AE04D8
@@ -631,12 +620,12 @@ $EndComp
 $Comp
 L GND #PWR014
 U 1 1 58D7D6A9
-P 3250 5950
-F 0 "#PWR014" H 3250 5700 50  0001 C CNN
-F 1 "GND" H 3250 5800 50  0000 C CNN
-F 2 "" H 3250 5950 50  0000 C CNN
-F 3 "" H 3250 5950 50  0000 C CNN
-	1    3250 5950
+P 3400 5950
+F 0 "#PWR014" H 3400 5700 50  0001 C CNN
+F 1 "GND" H 3400 5800 50  0000 C CNN
+F 2 "" H 3400 5950 50  0000 C CNN
+F 3 "" H 3400 5950 50  0000 C CNN
+	1    3400 5950
 	1    0    0    -1  
 $EndComp
 Text Label 1800 6850 0    60   ~ 0
@@ -648,47 +637,36 @@ Y_switch
 Text Label 5700 6550 0    60   ~ 0
 B_switch
 $Comp
-L GND #PWR015
-U 1 1 58D7EACD
-P 3550 5950
-F 0 "#PWR015" H 3550 5700 50  0001 C CNN
-F 1 "GND" H 3550 5800 50  0000 C CNN
-F 2 "" H 3550 5950 50  0000 C CNN
-F 3 "" H 3550 5950 50  0000 C CNN
-	1    3550 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X05 P4
+L CONN_01X06 P14
 U 1 1 58D7F440
-P 3800 7450
-F 0 "P4" H 3800 7750 50  0000 C CNN
-F 1 "DPAD_IN" V 3900 7450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 3800 7450 50  0001 C CNN
-F 3 "" H 3800 7450 50  0000 C CNN
-	1    3800 7450
+P 3750 7450
+F 0 "P14" H 3750 7100 50  0000 C CNN
+F 1 "DPAD_IN" V 3850 7450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 3750 7450 50  0001 C CNN
+F 3 "" H 3750 7450 50  0000 C CNN
+	1    3750 7450
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X05 P6
+L CONN_01X06 P16
 U 1 1 58D7F9B5
-P 4100 5700
-F 0 "P6" H 4100 6000 50  0000 C CNN
-F 1 "ABXY_IN" V 4200 5700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 4100 5700 50  0001 C CNN
-F 3 "" H 4100 5700 50  0000 C CNN
-	1    4100 5700
+P 4050 5700
+F 0 "P16" H 4050 6050 50  0000 C CNN
+F 1 "ABXY_IN" V 4150 5700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 4050 5700 50  0001 C CNN
+F 3 "" H 4050 5700 50  0000 C CNN
+	1    4050 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR015
 U 1 1 58D824DC
-P 3900 5950
-F 0 "#PWR016" H 3900 5700 50  0001 C CNN
-F 1 "GND" H 3900 5800 50  0000 C CNN
-F 2 "" H 3900 5950 50  0000 C CNN
-F 3 "" H 3900 5950 50  0000 C CNN
-	1    3900 5950
+P 3800 5950
+F 0 "#PWR015" H 3800 5700 50  0001 C CNN
+F 1 "GND" H 3800 5800 50  0000 C CNN
+F 2 "" H 3800 5950 50  0000 C CNN
+F 3 "" H 3800 5950 50  0000 C CNN
+	1    3800 5950
 	1    0    0    -1  
 $EndComp
 Text Label 3900 7250 1    60   ~ 0
@@ -697,16 +675,33 @@ Text Label 3800 7250 1    60   ~ 0
 Down
 Text Label 3700 7250 1    60   ~ 0
 Left
-Text Label 3600 7250 1    60   ~ 0
+Text Label 3500 7250 1    60   ~ 0
 Right
-Text Label 4000 5900 3    60   ~ 0
+Text Label 3900 5900 3    60   ~ 0
 A
-Text Label 4100 5900 3    60   ~ 0
+Text Label 4000 5900 3    60   ~ 0
 B
-Text Label 4200 5900 3    60   ~ 0
+Text Label 4100 5900 3    60   ~ 0
 X
 Text Label 4300 5900 3    60   ~ 0
 Y
+$Comp
+L GND #PWR016
+U 1 1 58D85E74
+P 4250 7350
+F 0 "#PWR016" H 4250 7100 50  0001 C CNN
+F 1 "GND" H 4250 7200 50  0000 C CNN
+F 2 "" H 4250 7350 50  0000 C CNN
+F 3 "" H 4250 7350 50  0000 C CNN
+	1    4250 7350
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 6800 0    60   ~ 0
+Main Board
+Text Notes 1800 7050 0    60   ~ 0
+DPAD Board
+Text Notes 5150 7050 0    60   ~ 0
+ABXY Board
 Connection ~ 3350 6550
 Wire Wire Line
 	2200 1150 2200 1200
@@ -938,11 +933,7 @@ Wire Wire Line
 Wire Notes Line
 	3000 6700 4450 6700
 Wire Wire Line
-	3550 5900 3550 5950
-Wire Wire Line
-	3250 5900 3250 5950
-Wire Wire Line
-	3900 5950 3900 5900
+	3800 5950 3800 5900
 Wire Wire Line
 	5050 6250 5050 6400
 Wire Wire Line
@@ -951,11 +942,8 @@ Wire Wire Line
 	4650 6400 4650 7050
 Wire Wire Line
 	1750 7100 1750 6250
-Connection ~ 3600 7050
 Wire Wire Line
 	4650 7050 3050 7050
-Wire Wire Line
-	3600 7050 3600 7250
 Connection ~ 3700 7100
 Connection ~ 3800 7150
 Wire Wire Line
@@ -966,17 +954,6 @@ Connection ~ 3900 7200
 Wire Wire Line
 	3900 6900 3900 7250
 Connection ~ 4000 6850
-$Comp
-L GND #PWR017
-U 1 1 58D85E74
-P 4250 7350
-F 0 "#PWR017" H 4250 7100 50  0001 C CNN
-F 1 "GND" H 4250 7200 50  0000 C CNN
-F 2 "" H 4250 7350 50  0000 C CNN
-F 3 "" H 4250 7350 50  0000 C CNN
-	1    4250 7350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 7250 4250 7350
 Wire Wire Line
@@ -995,12 +972,19 @@ Wire Wire Line
 	2400 6950 3800 6950
 Wire Wire Line
 	5400 7100 1750 7100
-Text Notes 3500 6800 0    60   ~ 0
-Main Board
 Wire Wire Line
 	3350 6600 3350 6550
-Text Notes 1800 7050 0    60   ~ 0
-DPAD Board
-Text Notes 5150 7050 0    60   ~ 0
-ABXY Board
+Wire Wire Line
+	3400 5900 3400 5950
+Text Label 3500 5900 0    60   ~ 0
+TR_TL
+Wire Wire Line
+	3500 7050 3500 7250
+Connection ~ 3500 7050
+Wire Wire Line
+	3600 7250 3600 6650
+Wire Wire Line
+	3600 6650 3500 6650
+Wire Wire Line
+	3500 6650 3500 5900
 $EndSCHEMATC

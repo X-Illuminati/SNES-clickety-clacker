@@ -373,8 +373,6 @@ Perhaps tomorrow will bring renewed invigoration and I'll make some improvements
 to the design or add some tips for future adventurers.  
 There's plenty of work left to do.
 1. Improvements to the layout
-   * combine P11 and P13 (TR/TL)
-   * route TR/TL through the board-to-board connectors (P4 and P6)
    * general routing improvements
      * route ground path around the outside of the board
      * route +5 V down center
@@ -382,11 +380,13 @@ There's plenty of work left to do.
      * route the top side traces predominantly horizontal
      * rotate U1 180°
      * rotate U2 180° or, possibly, 90° CCW
-     * move P4/P6 back from board edge to sneak a trace in between
-   * change P4/P6 to 2.54mm pitch as 1.27mm headers are way too small
 2. Create DIP package variant
 (or perhaps support both DIP and SMT in one design).
 3. Create 3D-printable models for select/start button caps
+
+
+
+
 
 
 
