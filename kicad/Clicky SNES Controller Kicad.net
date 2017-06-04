@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "//boxy/Serve6/HOME/cbaker/Clicky SNES Controller/kicad/Clicky SNES Controller Kicad.sch")
-    (date "6/4/2017 4:52:20 PM")
+    (date "6/4/2017 5:32:22 PM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref CN1)
       (value CN1)
-      (footprint Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm)
+      (footprint Extra_Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm_Sinister)
       (libsource (lib conn) (part CONN_01X05))
       (sheetpath (names /) (tstamps /))
       (tstamp 58A907FB))

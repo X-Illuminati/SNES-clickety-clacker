@@ -384,10 +384,10 @@ There's plenty of work left to do.
      * rotate U2 180° or, possibly, 90° CCW
      * move P4/P6 back from board edge to sneak a trace in between
    * change P4/P6 to 2.54mm pitch as 1.27mm headers are way too small
-   * rotate CN1 180° to fix silkscreen marking
 2. Create DIP package variant
 (or perhaps support both DIP and SMT in one design).
 3. Create 3D-printable models for select/start button caps
+
 
 
 
